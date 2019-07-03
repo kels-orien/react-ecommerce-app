@@ -1,2 +1,3 @@
 # react-ecommerce-app
-Ecommerce appplications for phones and laptops
+React Ecommerce appplication for phones and laptops built with Redux
+
