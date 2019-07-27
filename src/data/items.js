@@ -1,5 +1,6 @@
 export const phones = [
   {
+    id: 0,
     name: "Redmi Note 7",
     brand: "xaomi",
     price: "62,725",
@@ -18,6 +19,7 @@ export const phones = [
     other: "WIFI, Bluetooth 5.0, GPS, OTG"
   },
   {
+    id: 1,
     name: "IPhone XS Max",
     brand: " Apple",
     price: "439,900",
@@ -36,6 +38,7 @@ export const phones = [
     other: "Wireless charging – works with Qi chargers"
   },
   {
+    id: 2,
     name: "Infinix S4",
     brand: " Infinix",
     price: " 64,000",
@@ -53,6 +56,7 @@ export const phones = [
     other: ""
   },
   {
+    id: 3,
     name: "Infinix HOT 7 Pro",
     brand: " Infinix",
     price: " 43, 400",
@@ -70,6 +74,7 @@ export const phones = [
     other: ""
   },
   {
+    id: 4,
     name: "Tecno Spark 3",
     brand: " Tecno",
     price: " 31,400",
@@ -87,6 +92,7 @@ export const phones = [
     other: ""
   },
   {
+    id: 5,
     name: "Apple IPhone XR",
     brand: "Apple",
     price: "274, 500",
@@ -105,7 +111,3 @@ export const phones = [
     other: ""
   }
 ];
-
-export const headphones = [{}];
-
-export const laptops = [{}];
