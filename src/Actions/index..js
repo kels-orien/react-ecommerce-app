@@ -39,3 +39,21 @@ export const decrementProductQuantity = productId => {
 }
 
 
+export const nextPage = () => {
+  return {
+      type: NEXT_PAGE
+  }
+};
+
+export const prevPage = () => {
+  return {
+      type: PREV_PAGE
+  }
+};
+
+export const goToPage = (n) => {
+  return {
+      type: GO_TO_PAGE,
+      currentPage: n
+  }
+};
