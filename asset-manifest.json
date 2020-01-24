@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61690a16.chunk.css",
+    "main.js": "/static/js/main.86c27d39.chunk.js",
+    "main.js.map": "/static/js/main.86c27d39.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.f8d83dab.chunk.js": "/static/js/2.f8d83dab.chunk.js",
+    "static/js/2.f8d83dab.chunk.js.map": "/static/js/2.f8d83dab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76fd8627ba2e3262949b18a871c1ff6c.js": "/precache-manifest.76fd8627ba2e3262949b18a871c1ff6c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.61690a16.chunk.css.map": "/static/css/main.61690a16.chunk.css.map",
+    "static/media/mastercard.svg": "/static/media/mastercard.29cbd0e2.svg",
+    "static/media/paypal.svg": "/static/media/paypal.19dd5e3e.svg",
+    "static/media/visa.svg": "/static/media/visa.0b2ccfbc.svg"
+  }
+}
