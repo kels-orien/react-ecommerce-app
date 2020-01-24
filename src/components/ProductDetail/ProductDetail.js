@@ -1,40 +1,32 @@
 import React from "react";
 import { connect } from "react-redux";
+import Phone from "../Phone";
+import Laptop from "../Laptop";
+import Headphone from "../Headphone";
+
+
+
+
 
 const ProductDetail = props => {
-  const {
-    id,
-    name,
-    brand,
-    price,
-    cpu,
-    camera,
-    screen,
-    battery,
-    memory,
-    OS,
-    sim,
-    imageurl,
-    sourceurl,
-    description,
-    other
-  } = props.product;
+
 
   return (
     <div>
-      <p>
-        {name}
-        {brand}
-        {price}
-        {cpu}
-        {camera}
-        {screen}
-        {battery}
-        {description}
-        {other}
-      </p>
-      <button>Add To Cart</button>
-    </div>
+            {(() => {
+                switch(props.product.category) {
+		              case 'Mobile Phone':
+			              return <Phone phone={props.product}/>;
+		              case 'Laptop':
+			              return <Laptop laptop ={props.product}/>;
+		              case 'Headphone':
+			              return <Headphone headphone={props.product}/>
+		              default:
+			              return null;
+	        }
+          })()}
+        </div>
+    
   );
 };
 

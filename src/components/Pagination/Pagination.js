@@ -75,7 +75,7 @@ class Pagination extends Component {
                 buttonClass += ' active';
             }
 
-            return (<li className={buttonClass} onClick={() => {this.onPage(pageNum)}}><button className="page-link" >{pageNum}</button></li>);
+            return (<li className={buttonClass} onClick={() => {this.onPage(pageNum)}}><button className="round" >{pageNum}</button></li>);
         });
 
         let prevButtonClass = 'page-item';
@@ -86,7 +86,7 @@ class Pagination extends Component {
 
         const prevButton = (<li className={prevButtonClass}>
             <button
-                className="page-link" onClick={this.onPrev} tabIndex="-1">Previous</button>
+                className="round" onClick={this.onPrev} tabIndex="-1">&#8249;</button>
         </li>);
 
         let nextButtonClass = 'page-item';
@@ -99,20 +99,20 @@ class Pagination extends Component {
             <li className={nextButtonClass}>
                 <button
                     disabled={this.isOnLastPage()}
-                    className="page-link" onClick={this.onNext}>Next</button>
+                    className="round" onClick={this.onNext}>&#8250;</button>
             </li>
         );
 
 
 
         return (
-            <nav aria-label="...">
-                <ul className="pagination">
+          
+                <ul className="pagination" >
                     {prevButton}
                     {pages}
                     {nextButton}
                 </ul>
-            </nav>
+           
         );
     }
 }

@@ -1,17 +1,14 @@
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import { composedWithDevTools } from "redux-devtools-extensions";
+import { composedWithDevTools } from "redux-devtools-extension";
 import throttle from "lodash/throttle";
 import RootReducer from "./reducers/RootReducer";
-import { loadState, saveState } from "./utils/SyncProductCollection";
 
 const middleware = applyMiddleware(thunk);
-const persistedState = loadState();
 
 const Store = createStore(
   RootReducer,
-  persistedState,
-  composedWithDevTools(middleware)
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
 export default Store;

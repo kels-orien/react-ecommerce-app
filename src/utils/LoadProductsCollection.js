@@ -1,10 +1,5 @@
-products = [];
+import {newProducts} from "./../data/items";
 
 export default function LoadProductsCollections() {
-  const allProducts = localStorage.setItem(
-    "productsCollection",
-    JSON.stringify(products)
-  );
-
-  return allProducts;
+  localStorage.setItem("productsCollection", JSON.stringify(newProducts));
 }

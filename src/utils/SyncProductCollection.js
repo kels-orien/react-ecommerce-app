@@ -1,12 +1,17 @@
 import LoadProductsCollection from "./LoadProductsCollection";
 
-export const loadState = () => {
+const LoadState = () => {
   try {
     const serializedProductCollectionState = localStorage.getItem(
       "productsCollection"
     );
     if (serializedProductCollectionState === null) {
       LoadProductsCollection();
+      const serializedProductCollectionState = localStorage.getItem(
+        "productsCollection"
+      );
+
+      return JSON.parse(serializedProductCollectionState);
     }
     return JSON.parse(serializedProductCollectionState);
   } catch (err) {
@@ -14,4 +19,4 @@ export const loadState = () => {
   }
 };
 
-export const saveState = allProducts => {};
+export default LoadState;

@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Laptop component renders without crashing should render with given state from Redux store 1`] = `
+<div
+  className="sc-gzVnrw hUMBTD"
+>
+  <div
+    className="sc-htoDjs bXolpp"
+  >
+    <div
+      className="sc-dnqmqq enLLpy"
+    >
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/61RkJvByOdL._SL1364_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409239/e-shop/Laptops/Lenovo/61XJaRkMLAL._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/61UFDIoMZjL._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51RSDhg9K4L._SL1000_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51tMndxxH7L._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51O18VB7tSL._SL1000_.jpg"
+      />
+    </div>
+    <div
+      className="sc-bdVaJa iQqpnc"
+    >
+      <img
+        className="sc-bwzfXH hIBoZl"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/61RkJvByOdL._SL1364_.jpg"
+      />
+    </div>
+    <div
+      className="sc-iwsKbI dclivi"
+    >
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/61RkJvByOdL._SL1364_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409239/e-shop/Laptops/Lenovo/61XJaRkMLAL._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/61UFDIoMZjL._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51RSDhg9K4L._SL1000_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51tMndxxH7L._SL1280_.jpg"
+      />
+      <img
+        className="sc-gZMcBi dWRUWv"
+        src="https://res.cloudinary.com/dofiasjpi/image/upload/v1566409238/e-shop/Laptops/Lenovo/51O18VB7tSL._SL1000_.jpg"
+      />
+    </div>
+    <div
+      className="sc-gqjmRU gvgJtn"
+    >
+      <div
+        className="sc-VigVT jpNWsJ"
+      >
+        <h1
+          className="sc-jTzLTM grWVFo"
+        >
+          2019 Lenovo Thinkpad E590 15.6in HD
+        </h1>
+        <h1
+          className="sc-fjdhpX iuwhPH"
+        >
+          Key Features
+        </h1>
+        <div
+          className="sc-jzJRlG hldTqR"
+        >
+          <ul>
+            <li
+              data-testid="cpu"
+            >
+              Intel Quad Core i5-8265U 1.6 GHz (Turbo 3.90 GHz, 4 Cores 8 Threads, 6MB SmartCache)
+            </li>
+            <li
+              data-testid="screen"
+            />
+            <li
+              data-testid="harddrive"
+            >
+              Hard Drive	512 GB SSD
+            </li>
+            <li
+              data-testid="battery"
+            >
+              Battery Life (in hours)	12.23 hours
+            </li>
+            <li
+              data-testid="memory"
+            />
+            <li
+              data-testid="os"
+            >
+              Windows 10 Pro
+            </li>
+            <li
+              data-testid="ram"
+            >
+              RAM	16 GB SDRAM DDR4
+            </li>
+            <li
+              data-testid="gpu"
+            >
+              Integrated Intel UHD Graphics 620
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="sc-kAzzGY jNqgRk"
+      >
+        <h1
+          className="sc-jTzLTM grWVFo"
+        >
+          Quantity:
+        </h1>
+        <button
+          className="sc-kGXeez gVBjMv"
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <input
+          className="sc-kgoBCf iZRORz"
+          onChange={[Function]}
+          title="Qty"
+          type="number"
+        />
+        <button
+          className="sc-kGXeez gVBjMv"
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="sc-dxgOiQ RvFru"
+      >
+        <h1
+          className="sc-jTzLTM grWVFo"
+        >
+          ₦
+          353, 780
+        </h1>
+        <div
+          className="sc-ckVGcZ hAQtfL"
+        >
+          ₦
+          353, 780
+        </div>
+        <div
+          className="sc-kpOJdX ElHNd"
+        >
+          <button
+            className="sc-cSHVUG hYhzZo"
+          >
+            Buy
+          </button>
+        </div>
+        <div
+          className="sc-kpOJdX ElHNd"
+        >
+          <button
+            className="sc-cSHVUG esMBEu"
+            onClick={[Function]}
+          >
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
