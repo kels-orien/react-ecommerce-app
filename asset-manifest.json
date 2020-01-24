@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.61690a16.chunk.css",
-    "main.js": "/static/js/main.86c27d39.chunk.js",
-    "main.js.map": "/static/js/main.86c27d39.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.f8d83dab.chunk.js": "/static/js/2.f8d83dab.chunk.js",
-    "static/js/2.f8d83dab.chunk.js.map": "/static/js/2.f8d83dab.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.76fd8627ba2e3262949b18a871c1ff6c.js": "/precache-manifest.76fd8627ba2e3262949b18a871c1ff6c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.61690a16.chunk.css.map": "/static/css/main.61690a16.chunk.css.map",
-    "static/media/mastercard.svg": "/static/media/mastercard.29cbd0e2.svg",
-    "static/media/paypal.svg": "/static/media/paypal.19dd5e3e.svg",
-    "static/media/visa.svg": "/static/media/visa.0b2ccfbc.svg"
+    "main.css": "/react-ecommerce-app/static/css/main.61690a16.chunk.css",
+    "main.js": "/react-ecommerce-app/static/js/main.550f72a5.chunk.js",
+    "main.js.map": "/react-ecommerce-app/static/js/main.550f72a5.chunk.js.map",
+    "runtime~main.js": "/react-ecommerce-app/static/js/runtime~main.b0262846.js",
+    "runtime~main.js.map": "/react-ecommerce-app/static/js/runtime~main.b0262846.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/react-ecommerce-app/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.fa11db62.chunk.js": "/react-ecommerce-app/static/js/2.fa11db62.chunk.js",
+    "static/js/2.fa11db62.chunk.js.map": "/react-ecommerce-app/static/js/2.fa11db62.chunk.js.map",
+    "index.html": "/react-ecommerce-app/index.html",
+    "precache-manifest.295dc6642a701f4500ea6b9bb27e193e.js": "/react-ecommerce-app/precache-manifest.295dc6642a701f4500ea6b9bb27e193e.js",
+    "service-worker.js": "/react-ecommerce-app/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/react-ecommerce-app/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.61690a16.chunk.css.map": "/react-ecommerce-app/static/css/main.61690a16.chunk.css.map",
+    "static/media/mastercard.svg": "/react-ecommerce-app/static/media/mastercard.29cbd0e2.svg",
+    "static/media/paypal.svg": "/react-ecommerce-app/static/media/paypal.19dd5e3e.svg",
+    "static/media/visa.svg": "/react-ecommerce-app/static/media/visa.0b2ccfbc.svg"
   }
 }
