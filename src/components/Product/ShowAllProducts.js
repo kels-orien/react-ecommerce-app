@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Pagination from "../Pagination/Pagination"
 import {paginationPipe} from "../Pagination/paginationFilter"
-import NavBar from "../Navbar/Navbar";
+import NavBar from "../navbar/navbar";
 import Slider from "../Slider/Slider"
 import NewProduct from "../NewProduct/NewProduct"
 
