@@ -5,21 +5,27 @@ import ShowProductDetail from "../ProductDetail";
 import Cart from "../Cart";
 import Success from "../Success"
 import Slider from "../Slider"
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Redirect } from "react-router-dom";
 import Header from "../Header";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 class App extends Component {
   render() {
     return (
-        <Router>
-         <Header/>
+        <Router>\
+        <React.Fragment>
+        <Header/>
          <Switch>
-            <Route exact path="/" component={ShowAllProducts} />
-            <Route exact path="/product/:id" component={ShowProductDetail} />
-            <Route exact path="/cart" component={Cart} />
-            <Route exact path="/Success" component={Success} />
-            <Route exact path="/Slider" component={Slider} />
+                    <Route exact path={'/'} render={() => {
+                        return <Redirect to={'/products'}/>
+                    }}/>
+            <Route exact path={'/products'} component={ShowAllProducts} />
+            <Route exact path={"/product/:id"} component={ShowProductDetail} />
+            <Route exact path={"/cart"} component={Cart} />
+            <Route exact path={"/Success"} component={Success} />
+            <Route exact path={"/Slider"} component={Slider} />
          </Switch>
+        </React.Fragment>
+        
         </Router>
     );
   }
