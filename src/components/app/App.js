@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import ShowAllProducts from "../Product/";
 import ShowProductDetail from "../ProductDetail";
-import Cart from "../Cart";
+import Cart from "../cart";
 import Success from "../Success"
 import Slider from "../Slider"
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
