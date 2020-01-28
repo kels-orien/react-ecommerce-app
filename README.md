@@ -1,7 +1,7 @@
 # react-ecommerce-app
 React Ecommerce appplication for phones and laptops built with Redux
 
-## Live Demo here <a href="http://https://react-ecommerce-appn.herokuapp.com/cart" style="font-size: 40px">CLICK TO SEE DEMO</a>
+## Live Demo here <a href="https://react-ecommerce-appn.herokuapp.com" style="font-size: 40px">CLICK TO SEE DEMO</a>
 
 This project was bootstrapped with Create React App.
 
