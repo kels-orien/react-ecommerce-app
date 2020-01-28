@@ -1,21 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import {ImageWrap, Image} from "../ui"
 
 
-const ImageWrapper = styled.div`
-    margin-left: 2rem;
-    position: relative;
-`
-
-const Image = styled.img`
-    height: 20rem;
-    width: 20rem;
-    object-fit: cover;
-    display: block;
-`
 
 const ProductImage = props => {
-  return <ImageWrapper><Image src={props.image}/></ImageWrapper>;
+  return <ImageWrap><Image src={props.image}/></ImageWrap>;
 };
 
 export default ProductImage;

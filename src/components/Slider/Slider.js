@@ -1,11 +1,8 @@
 import React from 'react'
 import { Carousel } from "react-responsive-carousel";
-import styled from "styled-components";
+import {CarouselWrapper} from "../ui"
 
-const CarouselWrapper = styled.div`
-    width: 50%;
-    margin: 0 auto;
-`
+
 
 export default () => (   
 

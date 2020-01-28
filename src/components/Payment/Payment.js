@@ -3,54 +3,12 @@ import {connect} from "react-redux";
 import Visa from "../../assets/images/credit-card/visa.svg"
 import MasterCard from "../../assets/images/credit-card/mastercard.svg"
 import Paypal from "../../assets/images/credit-card/paypal.svg"
-import styled from "styled-components"
 import {Button} from "../ui"
 import {device} from "../ui/device"
 import { useHistory } from "react-router-dom";
 import {removeAllProductsFromCart} from "../../Actions"
 import CreditCardInput from 'react-credit-card-input';
-
-const PaymentWrapper = styled.section`
-    margin: 0 auto;
-    width: 40%; 
-    ${device.laptop`
-    width: 100%;
-    margin-top: 2rem;`
-}
-`
-
-const PaymentMain = styled.main`
-    padding: 1rem;
-    background-color: #ebebeb;  
-`
-
-const InputWrapper = styled.form`
-    display: block;
-    margin: 0 auto;
-`
-
-const Credit= styled.img`
-    width: 5rem;
-    height: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-`
-
-const CreditWrapper = styled.div`
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-`
-
-const CreditInput = styled.input`
-    margin-bottom: 1rem;
-    width: 99.5%;
-    border: 1px solid #ccc;
-    border-radius:.2rem;
-    height: 2rem;
-    outline: 0;
-    text-indent: .5rem;
-`
+import {PaymentWrapper, PaymentMain, CreditWrapper, Credit, InputWrapper, CreditInput} from "../ui"
 
 
 const Payment = (props) => {

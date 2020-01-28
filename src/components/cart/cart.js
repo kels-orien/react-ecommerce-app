@@ -1,50 +1,10 @@
 import React from 'react'
 import {connect} from "react-redux";
 import CartItem from "./CartItem"
-import styled from "styled-components"
 import {formatPrice} from "../../utils/formatPrice"
-import {device} from "../ui/device"
+import {CartWrapper, ItemWrapper, TotalAmountWrapper, TotalSpan, AmountSpan} from "../ui/"
 import "../../../src/index.css"
 import Payment from "../Payment"
-
-
-
-const CartWrapper =  styled.main`
-    margin: 0 auto;
-    margin-top: 4rem;
-    display: flex;
-    width: 80vw;
-    ${device.laptop`
-    display: block;`}
-    ${device.tabletM`
-    width: 100%;
-    `}
-`
-const ItemWrapper =  styled.section`
-    width: 60%;
-    ${device.laptop`
-    width: 100%;
-    `}
-`
-
-const TotalAmountWrapper = styled.div`
-    display: flex;
-    justify-content: space-between;
-`
-const TotalSpan=  styled.span`
-    background-color:#ebebeb;
-    padding: .25rem;
-    font-weight: 700;
-`
-
-const AmountSpan = styled.span`
-     background-color:#ebebeb;
-     padding: .25rem;
-     font-weight: 700;
-     margin-right:3.5rem;
-`
-
-
 
 
 const Cart = (props) => {

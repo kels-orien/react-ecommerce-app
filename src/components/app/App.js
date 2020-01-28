@@ -10,7 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 class App extends Component {
   render() {
     return (
-        <Router>\
+        <Router>
         <React.Fragment>
         <Header/>
          <Switch>

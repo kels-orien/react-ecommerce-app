@@ -1,6 +1,254 @@
 import styled from "styled-components";
 import {device} from "./device"
 
+export const NewWrapper = styled.h1`
+    font-size: 1rem;
+    font-weight: 500;
+`
+
+export const PaymentWrapper = styled.section`
+    margin: 0 auto;
+    width: 40%; 
+    ${device.laptop`
+    width: 100%;
+    margin-top: 2rem;`
+}
+`
+
+export const PaymentMain = styled.main`
+    padding: 1rem;
+    background-color: #ebebeb;  
+`
+
+export const InputWrapper = styled.form`
+    display: block;
+    margin: 0 auto;
+`
+
+export const Credit= styled.img`
+    width: 5rem;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+`
+
+export const CreditWrapper = styled.div`
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+`
+
+export const CreditInput = styled.input`
+    margin-bottom: 1rem;
+    width: 99.5%;
+    border: 1px solid #ccc;
+    border-radius:.2rem;
+    height: 2rem;
+    outline: 0;
+    text-indent: .5rem;
+`
+
+
+export const ImageWrap = styled.div`
+    margin-left: 2rem;
+    position: relative;
+`
+
+export const Image = styled.img`
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    display: block;
+`
+
+export const NavBarWrapper = styled.div`   
+    ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+
+        li{
+            cursor: pointer;
+            height: 2rem;
+            width: 13rem;
+            :hover {
+                position:relative;
+                ul {
+                    left:150px;
+                    top:0px;
+                    display:block;
+
+                    li {
+                        
+                        :hover {
+                            ul {
+                                display:block;
+                                left:150px;
+                                top:0;
+                                li{
+                                    :hover {
+                                        background-color:rgb(254, 215, 0);
+                                    }
+                                    a {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        ul {
+                            position:absolute;
+                            display:none;
+                        }
+                    }
+                }
+            }
+            a {
+                padding:5px 15px;
+                display:inline-block;
+                text-decoration:none;
+            }
+            ul {
+                position:absolute;
+                display:none;
+                li {
+                    background-color: white;
+                    ul {
+                        position:absolute;
+                        display:none;
+                    }
+
+                    a {
+                        display:inline-block;
+                        width:120px;
+                    }
+                }
+            }
+            :hover {
+                position:relative;
+
+                ul{
+                    left:150px;
+                    top:0px;
+                    display:block;
+                }
+              }
+            a{
+                padding: 5px 15px;
+                display: inline-block;
+                text-decoration: none;
+                :hover {
+                    color: rgb(254, 215, 0);
+                }
+            }
+        }
+    }
+`
+
+export const HeaderWrapper = styled.header`
+    width: 100%;
+    background-color:rgb(254, 215, 0);
+`
+
+export const HeaderTitle = styled.h1`
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+`
+
+export const NavHome =  styled.nav`
+    height: 3.1rem;
+    color: black;
+    display: none
+    padding-left: 9rem;
+    
+    ${device.mobileXL`
+    padding-left: 3rem`}
+
+    ${device.tablet`
+     display: inline-block;`}
+`
+export const NavWhite =  styled.nav`
+     height: 3.1rem;
+     padding-left: 9rem;
+     width: 20%;
+     color: black;
+     background-color: white;
+     clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%);
+
+     ${device.tablet`
+     display: none;`}
+`
+
+
+export const Nav = styled.nav `
+    height: 2.7rem;
+    padding-left: 9rem;
+
+    ${device.tablet`
+    padding-left: 3rem;`}
+
+    ul{
+
+        li{
+            display: inline-block;
+             white-space: nowrap;
+            list-style: none;
+
+            a{
+                font-size: .65rem;
+                font-weight: 700;
+                line-height: 2.5rem;
+            }
+
+            :not(:first-child) {
+                margin-left: 2.5rem;
+
+                ${device.mobileXL`
+                    margin-left: 0rem; 
+                    padding-left: 1rem;`}
+            }
+        } 
+    }      
+`
+
+
+export const CartWrapper =  styled.main`
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    width: 80vw;
+    ${device.laptop`
+    display: block;`}
+    ${device.tabletM`
+    width: 100%;
+    `}
+`
+export const ItemWrapper =  styled.section`
+    width: 60%;
+    ${device.laptop`
+    width: 100%;
+    `}
+`
+
+export const TotalAmountWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+`
+export const TotalSpan=  styled.span`
+    background-color:#ebebeb;
+    padding: .25rem;
+    font-weight: 700;
+`
+
+export const AmountSpan = styled.span`
+     background-color:#ebebeb;
+     padding: .25rem;
+     font-weight: 700;
+     margin-right:3.5rem;
+`
+
+
+
 export const ContainerWrapper = styled.div`
     background-color: rgb(238,238,238);     
 `
@@ -197,4 +445,8 @@ export const SuccessTextWrapper = styled.div`
 export const SuccessButtonWrapper = styled.div`
     text-align: center;
     margin: 1rem 2rem;
+`
+export const CarouselWrapper = styled.div`
+    width: 50%;
+    margin: 0 auto;
 `
