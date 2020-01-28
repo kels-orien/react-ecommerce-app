@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import Pagination from "../Pagination"
+import Pagination from "../Pagination/Pagination"
 import {paginationPipe} from "../Pagination/paginationFilter"
-import NavBar from "../Navbar";
-import Slider from "../Slider"
-import NewProduct from "../NewProduct"
+import NavBar from "../Navbar/Navbar";
+import Slider from "../Slider/Slider"
+import NewProduct from "../NewProduct/NewProduct"
 
 import {ContainerWrapper, MainWrapper, ProductWrapper, Card} from "../ui"
 

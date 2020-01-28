@@ -1,6 +1,6 @@
 import React from 'react'
 import {connect} from "react-redux";
-import CartItem from "./cartItem"
+import CartItem from "./CartItem"
 import styled from "styled-components"
 import {formatPrice} from "../../utils/formatPrice"
 import {device} from "../ui/device"

@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import ShowAllProducts from "../Product/";
+import ShowAllProducts from "../Product/ShowAllProducts";
 import ShowProductDetail from "../ProductDetail";
-import Cart from "../cart";
-import Success from "../Success"
-import Slider from "../Slider"
+import Cart from "../Cart/Cart";
+import Success from "../Success/Success"
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
-import Header from "../Header";
+import Header from "../Header/Header";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 class App extends Component {
   render() {
@@ -22,7 +21,6 @@ class App extends Component {
             <Route exact path={"/product/:id"} component={ShowProductDetail} />
             <Route exact path={"/cart"} component={Cart} />
             <Route exact path={"/Success"} component={Success} />
-            <Route exact path={"/Slider"} component={Slider} />
          </Switch>
         </React.Fragment>
         

@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import Phone from "../Phone";
-import Laptop from "../Laptop";
-import Headphone from "../Headphone";
+import Phone from "../Phone/Phone";
+import Laptop from "../Laptop/Laptop";
+import Headphone from "../Headphone/Headphone";
 
 
 
