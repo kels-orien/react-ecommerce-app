@@ -5,7 +5,7 @@ import ShowProductDetail from "../ProductDetail";
 import cart from "../cart/cart";
 import Success from "../Success/Success"
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
-import Header from "../Header/Header";
+import Header from "../header/header";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 class App extends Component {
   render() {
