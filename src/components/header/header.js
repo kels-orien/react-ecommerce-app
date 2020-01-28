@@ -1,7 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import {NavLink} from 'react-router-dom';
-import {device} from "../ui/device"
 import {HeaderWrapper, HeaderTitle, NavHome, NavWhite, Nav} from "../ui"
 
 

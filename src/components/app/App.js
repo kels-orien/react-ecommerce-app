@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import ShowAllProducts from "../Product/ShowAllProducts";
 import ShowProductDetail from "../ProductDetail";
-import Cart from "../Cart/Cart";
+import cart from "../cart/cart";
 import Success from "../Success/Success"
 import { BrowserRouter as Router, Redirect } from "react-router-dom";
 import Header from "../Header/Header";
@@ -19,7 +19,7 @@ class App extends Component {
                     }}/>
             <Route exact path={'/products'} component={ShowAllProducts} />
             <Route exact path={"/product/:id"} component={ShowProductDetail} />
-            <Route exact path={"/cart"} component={Cart} />
+            <Route exact path={"/cart"} component={cart} />
             <Route exact path={"/Success"} component={Success} />
          </Switch>
         </React.Fragment>

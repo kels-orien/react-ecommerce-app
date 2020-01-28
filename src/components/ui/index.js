@@ -1,6 +1,50 @@
 import styled from "styled-components";
 import {device} from "./device"
 
+
+
+export const ItemWrap = styled.section`
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+`
+export const Item = styled.div`
+    display: flex;
+`
+
+export const ItemImageWrapper = styled.img`
+    width: 4rem;
+    height: 4rem;
+`
+
+export const ItemDetailWrapper = styled.div`
+    padding-left: 0.5rem;
+    
+`
+
+export const ItemPrice =  styled.div`
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+    justify-content: flex-end;
+`
+
+export const DeleteButton = styled.div`
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.2rem;
+    position: relative;
+    font-weight: 700;
+    font-size: 1rem;
+    outline: 0;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 1rem;
+    width: 2rem;
+    color: grey;
+`
+
 export const NewWrapper = styled.h1`
     font-size: 1rem;
     font-weight: 500;

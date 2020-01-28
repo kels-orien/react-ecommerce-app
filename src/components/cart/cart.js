@@ -2,8 +2,7 @@ import React from 'react'
 import {connect} from "react-redux";
 import CartItem from "./CartItem"
 import {formatPrice} from "../../utils/formatPrice"
-import {CartWrapper, ItemWrapper, TotalAmountWrapper, TotalSpan, AmountSpan} from "../ui/"
-import "../../../src/index.css"
+import {CartWrapper, ItemWrapper, TotalAmountWrapper, TotalSpan, AmountSpan} from "../ui"
 import Payment from "../Payment"
 
 

@@ -4,7 +4,6 @@ import Visa from "../../assets/images/credit-card/visa.svg"
 import MasterCard from "../../assets/images/credit-card/mastercard.svg"
 import Paypal from "../../assets/images/credit-card/paypal.svg"
 import {Button} from "../ui"
-import {device} from "../ui/device"
 import { useHistory } from "react-router-dom";
 import {removeAllProductsFromCart} from "../../Actions"
 import CreditCardInput from 'react-credit-card-input';

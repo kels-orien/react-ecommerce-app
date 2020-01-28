@@ -1,6 +1,5 @@
 import React from 'react'
 import ProductThumbnail from "../ProductThumbnail"
-import styled from "styled-components"
 import {formatPrice} from "../../utils/formatPrice"
 import {NewWrapper} from "../ui"
 
