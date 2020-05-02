@@ -1,10 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/main.PNG)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/products.png)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/product-details.png)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/payment.png)
-
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/main.PNG)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/products.PNG)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/product-details.PNG)
+![alt-text]((https://github.com/kels-orien/react-ecommerce-app/blob/master/payment.PNG)
 
 
 ### `npm test`
