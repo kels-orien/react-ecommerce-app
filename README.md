@@ -1,18 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-*Main Page (Products)
+* Main Page (Products)
+
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/main.PNG)
 
 
-*Section of Products
+* Section of Products
+
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/products.PNG)
 
 
-*Product Details Page
+* Product Details Page
+
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/product-details.PNG)
 
 
-*Payment Page
+* Payment Page
+
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/payment.PNG)
 
 
