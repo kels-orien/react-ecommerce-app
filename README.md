@@ -1,9 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/main.png)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/products.png)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/product-details.png)
-![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/payment.png)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/main.png)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/products.png)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/product-details.png)
+![alt-text](https://github.com/kels-orien/react-ecommerce-app/payment.png)
 
 
 
