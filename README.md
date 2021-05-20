@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/products.PNG)
 
 
-* Product Details Page
+* Product Detail  Page
 
 ![alt-text](https://github.com/kels-orien/react-ecommerce-app/blob/master/product-details.PNG)
 
